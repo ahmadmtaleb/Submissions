@@ -40,9 +40,9 @@ During my journey at MIL I worked on: <br>
 
 ## **Languages:**
 
--Arabic
--French
--English
++Arabic
++French
++English
 
 ## **References:**
 
