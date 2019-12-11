@@ -1,5 +1,8 @@
 # **Ahmad Taleb**
 
+<br>
+!(Desktop/Codi/Submissions/Exercises/Git-Trial/ded.png)
+<br>
 Beirut, Lebanon<br>
 **_Phone_**: +961 78 841 679<br>
 **_Email_**: <ahmedmtaleb.23@gmail.com><br>
@@ -17,7 +20,11 @@ During my journey at MIL I worked on: <br>
 
 ## **Education:**
 
-**Lebanese University** BS in Electronics Sep 2009 - Sep 2012<br>
+<pre>
+**Lebanese University**         BS in Electronics                                Sep 2009 - Sep 2012<br>
+</pre>
+
+**Lebanese University** Masters in Norms and Technology Management Sep 2015 - Sep 2017<br>
 
 ## **Internships:**
 
