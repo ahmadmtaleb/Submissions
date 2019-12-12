@@ -14,7 +14,9 @@ Seeking an internship in programming<br>
 
 ## **Work experience:**
 
-**Maxwell Innovation Lab** Quality Specialist Dec 2017 - Dec 2018<br>
+<pre>
+**Maxwell Innovation Lab**        Quality Specialist                                         Dec 2017 - Dec 2018<br></pre>
+
 During my journey at MIL I worked on: <br>
 
 - European Medical Device Regulation
@@ -27,13 +29,13 @@ During my journey at MIL I worked on: <br>
 </pre>
 
 <pre>
-<strong>Lebanese University<strong>        Ms in Norms and Technology Management        Sep 2015 - Sep 2017<br>
+<strong>Lebanese University<strong>        Ms in Norms and Technology Management             Sep 2015 - Sep 2017<br>
 </pre>
 
 ## **Internships:**
 
 <pre>
-National Training Center        Electronics        Dec 2011 - Jun 2011<br>
+National Training Center        Electronics                                      Dec 2011 - Jun 2011<br>
 </pre>
 
 ## **Skills:**
