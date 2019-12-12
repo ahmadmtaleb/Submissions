@@ -27,11 +27,12 @@ During my journey at MIL I worked on: <br>
 </pre>
 
 <pre>
-<strong>Lebanese University<strong>  Ms in Norms and Technology Management        Sep 2015 - Sep 2017<br>
+Lebanese University  Ms in Norms and Technology Management        Sep 2015 - Sep 2017<br>
+</pre>
 
 ## **Internships:**
 
-**National Training Center** Electronics Dec 2011 - Jun 2011<br>
+National Training Center Electronics Dec 2011 - Jun 2011<br>
 
 ## **Skills:**
 
@@ -42,9 +43,9 @@ During my journey at MIL I worked on: <br>
 
 ## **Languages:**
 
-+ Arabic
-+ French
-+ English
+- Arabic
+- French
+- English
 
 ## **References:**
 
