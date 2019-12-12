@@ -16,8 +16,9 @@ Seeking an internship in programming<br>
 
 **Maxwell Innovation Lab** Quality Specialist Dec 2017 - Dec 2018<br>
 During my journey at MIL I worked on: <br>
--European Medical Device Regulation<br>
--ISO 13485: quality management system for medical devices<br>
+
+- European Medical Device Regulation
+- ISO 13485: quality management system for medical devices
 
 ## **Education:**
 
@@ -25,7 +26,8 @@ During my journey at MIL I worked on: <br>
 <strong>Lebanese University</strong>         BS in Electronics                                Sep 2009 - Sep 2012<br>
 </pre>
 
-**Lebanese University** Masters in Norms and Technology Management Sep 2015 - Sep 2017<br>
+<pre>
+<strong>Lebanese University<strong>  Ms in Norms and Technology Management        Sep 2015 - Sep 2017<br>
 
 ## **Internships:**
 
@@ -33,16 +35,16 @@ During my journey at MIL I worked on: <br>
 
 ## **Skills:**
 
--Word <br>
--Excel <br>
--Power Point <br>
--VMA<br>
+- Word
+- Excel
+- Power Point
+- VMA
 
 ## **Languages:**
 
-+Arabic
-+French
-+English
++ Arabic
++ French
++ English
 
 ## **References:**
 
