@@ -15,7 +15,7 @@ Seeking an internship in programming<br>
 ## **Work experience:**
 
 <pre>
-**Maxwell Innovation Lab**        Quality Specialist                                         Dec 2017 - Dec 2018<br></pre>
+**Maxwell Innovation Lab**        Quality Specialist                           Dec 2017 - Dec 2018<br></pre>
 
 During my journey at MIL I worked on: <br>
 
@@ -35,7 +35,7 @@ During my journey at MIL I worked on: <br>
 ## **Internships:**
 
 <pre>
-National Training Center        Electronics                                      Dec 2011 - Jun 2011<br>
+National Training Center        Electronics                                    Dec 2011 - Jun 2011<br>
 </pre>
 
 ## **Skills:**
