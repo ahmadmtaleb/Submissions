@@ -44,6 +44,6 @@
     "pretty-quick": "^1.6.0"
   },
   "dependencies": {
-    "npm": "^6.13.3"
+    "npm": "^6.13.4"
   }
 }
