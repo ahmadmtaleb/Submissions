@@ -1,0 +1,22 @@
+/**/
+header {
+  background-color: rgb(153, 153, 153);
+  color: red;
+}
+figure {
+  text-align: center;
+}
+h3::before {
+  content: "@";
+  color: red;
+}
+h4 {
+  color: red;
+}
+.content {
+  display: grid;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
