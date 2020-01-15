@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
+import Find from ".//component /Find_component";
+import Hourly from "./component /Hourly_component";
+
 import clear from "./img/weather-icons/clear.svg";
 import cloudy from "./img/weather-icons/cloudy.svg";
 import drizzle from "./img/weather-icons/drizzle.svg";
@@ -21,13 +24,10 @@ class App extends Component {
     return (
       <div className="app">
         <header className="app__header">
-          <form action="/actionpage.">
-            <input type="text" name="city" placeholder="city" id="city"></input>
-            <input type="button" value="Find weather" id="find"></input>
-          </form>
+          <Find />
         </header>
         <main className="app__main">
-          <div class="today_weather">
+          <div class="current_weather">
             <img src={storm} alt="storm icon" />
             <p id="status">status</p>
 
@@ -38,48 +38,18 @@ class App extends Component {
 
             <div class="today2">
               <p class="strong">Humidity</p>
-              <p>10</p>
               <p class="strong">Pressure</p>
-              <p>76</p>
             </div>
           </div>
 
-          <div class="container_second">
-            <section class="column">
-              <p>hour</p>
-              <img src={clear} alt="storm icon" />
-              <p>temp</p>
-            </section>
-            <section class="column">
-              <p>hour</p>
-              <img src={snow} alt="storm icon" />
-              <p>temp</p>
-            </section>
-            <section class="column">
-              <p>hour</p>
-              <img src={rain} alt="storm icon" />
-              <p>temp</p>
-            </section>
-            <section class="column">
-              <p>hour</p>
-              <img src={fog} alt="storm icon" />
-              <p>temp</p>
-            </section>
-            <section class="column">
-              <p>hour</p>
-              <img src={cloudy} alt="storm icon" />
-              <p>temp</p>
-            </section>
-            <section class="column">
-              <p>hour</p>
-              <img src={partlycloudy} alt="storm icon" />
-              <p>temp</p>
-            </section>
-            <section class="column">
-              <p>hour</p>
-              <img src={mostlycloudy} alt="storm icon" />
-              <p>temp</p>
-            </section>
+          <div class="weather_over24">
+            <Hourly />
+            <Hourly />
+            <Hourly />
+            <Hourly />
+            <Hourly />
+            <Hourly />
+            <Hourly />
           </div>
         </main>
       </div>

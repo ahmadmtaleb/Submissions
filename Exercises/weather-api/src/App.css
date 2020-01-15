@@ -1,7 +1,6 @@
 /* All the page*/
 * {
   font-family: "Raleway", sans-serif;
-  /* border: 2px solid black; */
 }
 
 /*Header*/
@@ -32,7 +31,6 @@ main {
 }
 
 .app__main {
-  width: 100%;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -47,8 +45,7 @@ main {
 
 /* Centered image */
 
-.today_weather {
-  /* width:18%; */
+.current_weather {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -63,21 +60,22 @@ main {
   font-size: 1.2em;
 }
 .today1 {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .today2 {
+  width: 100%;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
 /*show different hour*/
-.container_second {
+.weather_over24 {
   width: 70%;
   display: flex;
   flex-flow: row wrap;
