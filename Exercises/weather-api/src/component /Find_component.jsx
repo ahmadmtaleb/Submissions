@@ -1,10 +1,10 @@
 import React from "react";
 
-const Find = () => {
+const Find = props => {
   return (
-    <form action="/actionpage.">
-      <input type="text" name="city" placeholder="city" id="city"></input>
-      <input type="button" value="Find weather" id="find"></input>
+    <form onSubmit={props.loadWeather}>
+      <input type="text" name="city" placeholder="city" id="city" />
+      <button id="find">Find Weather</button>
     </form>
   );
 };
