@@ -52,3 +52,19 @@
 	JOIN companies as comp
 	ON emp.Company = comp.Name
 	WHERE emp.role Like "Graphic Designer";
+
+/*COUNT and FILTER*/
+1- SELECT name, MAX(points) as highest
+	FROM students;
+2- SELECT AVG(points) as avg
+	FROM students;
+3- SELECT COUNT(ID) as count
+	FROM students
+	WHERE points = "500";
+4- SELECT name as sname
+	FROM students
+	WHERE name LIKE "500";
+5- SELECT name, points
+	FROM students
+	ORDER BY points DESC;
+	
