@@ -36,3 +36,19 @@
 	WHERE Name = "Layal";
 4- DELETE FROM students
 	WHERE name = "Layal";
+
+/*JOINS*/
+1- SELECT emp.Name, emp.Company, comp.Date 
+	FROM employees as emp
+	JOIN companies as comp
+	ON emp.Company = comp.Name;
+2- SELECT emp.Name
+	FROM employees as emp
+	JOIN companies as comp
+	ON emp.Company = comp.Name 
+	WHERE comp.date < "2000";
+3- SELECT emp.Company
+	FROM employees as emp
+	JOIN companies as comp
+	ON emp.Company = comp.Name
+	WHERE emp.role Like "Graphic Designer";
