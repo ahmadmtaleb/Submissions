@@ -63,7 +63,7 @@
 	WHERE points = "500";
 4- SELECT name as sname
 	FROM students
-	WHERE name LIKE "500";
+	WHERE name LIKE "%s%";
 5- SELECT name, points
 	FROM students
 	ORDER BY points DESC;
