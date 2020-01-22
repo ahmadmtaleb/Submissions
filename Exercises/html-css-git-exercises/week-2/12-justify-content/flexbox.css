@@ -7,3 +7,24 @@
 }
 
 /* Add your own CSS code below */
+.country {
+  font-family: sans-serif;
+}
+.countries--first {
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  font-size: 0.83em;
+}
+.countries--second {
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  font-size: 0.8em;
+}
+.countries--third {
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+}
+.countries--fourth {
+  flex-flow: column-reverse nowrap;
+  justify-content: space-evenly;
+}
