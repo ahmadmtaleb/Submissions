@@ -1,1 +1,10 @@
 /* Add your own CSS code below */
+.countries--first {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: flex-start;
+}
+.country {
+  font-size: 0.8em;
+  font-family: sans-serif;
+}
