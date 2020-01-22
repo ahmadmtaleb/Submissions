@@ -6,6 +6,11 @@
     <title>26 - Checkout Groups - HTML, CSS and Git Exercises</title>
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/week3-forms.css" />
+    <style>
+      .d {
+        margin: 1em;
+      }
+    </style>
   </head>
 
   <body>
@@ -38,6 +43,53 @@
           <h2 class="checkout__title">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
             <!-- Add the form fields here -->
+            <fieldset>
+              <legend>Billing Address</legend>
+              <div class="d">
+                <label for="add">Address</label>
+                <input id="add" type="text" name="bil_address" />
+              </div>
+              <div class="d">
+                <label for="addl1">Address Line 1</label>
+                <input id="addl1" type="text" name="bil_address_1" />
+              </div>
+              <div class="d">
+                <label for="addl2">Address Line 2</label>
+                <input id="addl2" type="text" name="bil_address_2" />
+              </div>
+              <div class="d">
+                <label for="code">Postcode</label>
+                <input id="code" type="text" name="bil_postcode" />
+              </div>
+              <div class="d">
+                <label for="cit">City</label>
+                <input id="cit" type="text" name="bil_city" />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Delivery Address</legend>
+              <div class="d">
+                <label for="add">Address</label>
+                <input id="add" type="text" name="del_address" />
+              </div>
+              <div class="d">
+                <label for="addl1">Address Line 1</label>
+                <input id="addl1" type="text" name="del_address_1" />
+              </div>
+              <div class="d">
+                <label for="addl2">Address Line 2</label>
+                <input id="addl2" type="text" name="del_address_2" />
+              </div>
+              <div class="d">
+                <label for="code">Postcode</label>
+                <input id="code" type="text" name="del_postcode" />
+              </div>
+              <div class="d">
+                <label for="cit">City</label>
+                <input id="cit" type="text" name="del_city" />
+              </div>
+            </fieldset>
 
             <button type="submit">Complete Purchase</button>
           </form>
