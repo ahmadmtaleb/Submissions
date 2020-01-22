@@ -3,3 +3,65 @@
 }
 
 /* Add your own CSS code below */
+.countries {
+  font-family: sans-serif;
+}
+.countries--first {
+  justify-content: flex-start;
+  font-size: 0.85em;
+}
+.country--brazil {
+  order: 5;
+}
+.country--croatia {
+  order: 1;
+}
+.country--ethiopia {
+  order: 2;
+}
+.country--laos {
+  order: 3;
+}
+.country--uganda {
+  order: 4;
+}
+
+.countries--second {
+  justify-content: flex-start;
+  font-size: 0.85em;
+}
+.country--brazil {
+  order: 4;
+}
+.country--croatia {
+  order: 1;
+}
+.country--ethiopia {
+  order: 2;
+}
+.country--laos {
+  order: 3;
+}
+.country--uganda {
+  order: 5;
+}
+
+.countries--third {
+  justify-content: flex-start;
+  font-size: 0.85em;
+}
+.country--brazil {
+  order: 5;
+}
+.country--croatia {
+  order: 4;
+}
+.country--ethiopia {
+  order: 3;
+}
+.country--laos {
+  order: 2;
+}
+.country--uganda {
+  order: 1;
+}
