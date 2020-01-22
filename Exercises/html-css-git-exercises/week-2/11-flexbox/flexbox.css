@@ -8,3 +8,11 @@
   font-size: 0.8em;
   font-family: sans-serif;
 }
+.countries--second {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.countries--third {
+  display: flex;
+  flex-flow: column-reverse nowrap;
+}
