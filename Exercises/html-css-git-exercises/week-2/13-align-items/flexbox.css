@@ -2,3 +2,23 @@
   display: flex;
 }
 /* Add your own CSS code below */
+.country {
+  font-family: sans-serif;
+}
+.countries--first {
+  align-items: center;
+  font-size: 0.85em;
+}
+.countries--second {
+  flex-flow: row-reverse nowrap;
+  align-items: flex-end;
+  font-size: 0.85em;
+}
+.countries--third {
+  flex-flow: column nowrap;
+  align-items: flex-end;
+}
+.countries--fourth {
+  flex-flow: column-reverse nowrap;
+  align-items: center;
+}
