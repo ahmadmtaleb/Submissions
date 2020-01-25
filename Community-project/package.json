@@ -1,0 +1,29 @@
+{
+  "name": "community-project",
+  "version": "1.0.0",
+  "description": "community project for codi ",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadmtaleb/Submissions.git"
+  },
+  "author": "Ahmad Taleb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadmtaleb/Submissions/issues"
+  },
+  "homepage": "https://github.com/ahmadmtaleb/Submissions#readme",
+  "dependencies": {
+    "npm": "^6.13.6"
+  },
+  "devDependencies": {
+    "husky": "^4.2.1",
+    "live-server": "^1.2.1",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
+  }
+}
