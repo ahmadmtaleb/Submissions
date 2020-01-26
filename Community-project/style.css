@@ -1,0 +1,98 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+/* Header*/
+    .header-top-social
+        {
+            width:200px;
+            display: flex;
+            flex-flow:row nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top:0%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+    .header-top-slink
+        {
+            width:30px;
+            height:30px;
+            list-style-type: none;
+        }
+    .site-header
+        {
+            width:100%;
+            display:flex;
+            flex-flow:column wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            border: 2px solid blue;
+        }
+    .site-header-title
+        {
+            width:100%;
+            display:flex;
+            /* align-self: flex-start; */
+            border: 2px solid green;
+            margin:0%;
+            /* margin-left:2%;
+            margin-top: 0%; */
+        }
+    .main-nav
+        {
+            width:100%;
+            /* border: 2px solid red; */
+            margin:0%;
+            /* align-self: center; */
+        }
+    .main-nav-list
+        {
+            width:85%;
+            display:flex;
+            flex-flow:row nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            list-style-type: none;
+            /* border: 2px solid black; */
+            /* margin-bottom:0%;
+            margin-top:0%; */
+        }
+/*main*/
+
+.facts-figures
+        {
+            display: flex;
+            flex-flow: column wrap;
+        }
+.main-facts
+        {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+.facts-item
+        {
+            width:20%;            
+        }
+/*main about*/
+.about-main-article
+    {
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin:5%;
+        
+    }
+.about-main-article p
+    {
+        text-align: justify;
+        line-height: 1em;
+        font-size:1.5em;
+
+    }
+/*footer*/
