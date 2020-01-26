@@ -1,7 +1,18 @@
-*{
-    font-family: 'Roboto', sans-serif;
+body    
+    {
+        background-image: linear-gradient(to bottom, #ffff99, #fff38b, #ffe67d, #ffd971, #ffcc66);
+        font-family: 'Roboto', sans-serif;
+    }
 
-}
+.site-wrapper
+    {
+        display:flex;
+        flex-flow:column nowrap;
+        justify-content: center;
+        align-items:center;
+        margin:3%;
+    }
+
 /* Header*/
     .header-top-social
         {
@@ -14,7 +25,6 @@
             margin-bottom: 0%;
             margin-left: auto;
             margin-right: auto;
-            text-align: center;
         }
     .header-top-slink
         {
@@ -25,61 +35,111 @@
     .site-header
         {
             width:100%;
-            display:flex;
-            flex-flow:column wrap;
-            justify-content: space-around;
-            align-items: flex-start;
-            border: 2px solid blue;
         }
     .site-header-title
         {
-            width:100%;
             display:flex;
-            /* align-self: flex-start; */
-            border: 2px solid green;
-            margin:0%;
-            /* margin-left:2%;
-            margin-top: 0%; */
+            margin:2%;
         }
     .main-nav
         {
-            width:100%;
-            /* border: 2px solid red; */
-            margin:0%;
-            /* align-self: center; */
+            background-color: hsl(66, 43%, 60%);
+            margin:2%;
         }
     .main-nav-list
         {
-            width:85%;
-            display:flex;
-            flex-flow:row nowrap;
+            display: flex;
+            flex-flow: row wrap;
             justify-content: space-evenly;
             align-items: center;
             list-style-type: none;
-            /* border: 2px solid black; */
-            /* margin-bottom:0%;
-            margin-top:0%; */
-        }
-/*main*/
+            margin-left: auto;
+            margin-right: auto;
 
-.facts-figures
+        }
+/*main index*/
+.main-sections
         {
             display: flex;
-            flex-flow: column wrap;
+            flex-flow: column nowrap;
+            justify-content: space-evenly;
+            align-items: center;
         }
+.index-center
+        {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 2%;
+            border: 2px solid hsl(66, 43%, 60%);
+            box-shadow: 5px 10px 18px #888888;
+        }
+.index-center img
+    {
+        width:70%;
+    }
+.index-center p
+    {
+        width:25%;
+        margin-left:2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        text-align: justify;
+        line-height: 1em;
+        font-size:1.1em;
+    }
+.index-center-s
+    {
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: space-between;
+        align-items:center;
+        margin: 2%;        
+        border: 2px solid hsl(66, 43%, 60%);
+        box-shadow: 5px 10px 18px #888888;
+    }
+.index-center-s div
+    {
+        width:28%;
+        height:auto;
+        border: 2px solid black;
+
+    }
+.index-center-s p
+    {
+        width:28%;
+        text-align: center;
+        line-height: 1em;
+        font-size:1.1em;
+        border: 2px solid black;
+
+    }
+.facts-figures  
+    {
+        border: 2px solid hsl(66, 43%, 60%);
+        box-shadow: 5px 10px 18px #888888;
+        margin:2%;
+    }
+.facts-figures h2   
+    {
+        text-align: center;
+    }
 .main-facts
         {
             display: flex;
             flex-flow: row wrap;
             justify-content: space-evenly;
             text-align: center;
+            margin: 2%;        
+
         }
 .facts-item
         {
             width:20%;            
         }
 /*main about*/
-.about-main-article
+.about-main-article 
     {
         display:flex;
         flex-flow: column nowrap;
@@ -94,5 +154,24 @@
         line-height: 1em;
         font-size:1.5em;
 
+    }
+
+/*contact main*/
+.contact-main-article 
+    {
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin:5%;
+    }
+/*ne main*/
+.index-main-article
+    {
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin:5%;
     }
 /*footer*/
