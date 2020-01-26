@@ -7,6 +7,7 @@
         <link rel="shortcut icon" type="image/jpg" href="icons/jt-ohm.ico">
         <link rel="stylesheet" href="/style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet"> 
         <meta name="description" content="Socialarity is an initiative that encourage social solidarity in Lebanon through organizing events that helps in fighting hunger and increase food security in the lebanese community by increasing the accessibility to food by people who cannot afford a healthy meal">
         <meta name="keywords" content="social,solidarity,hunger,sustainable developments goals, free meal, donate, volunteer, support">
     </head>
@@ -40,8 +41,58 @@
                     </ul>
                 </nav>
             </header>
-            <main>
-              <article class="ne-main-article"></article>
+            <main class="ne-main">
+                <section class="ne-section1">
+                    <form action="">
+                        <fieldset>
+                           <legend>What are you looking for?</legend>
+                              <label for="">Select list</label>
+                                <select id = "myList">
+                                    <option value = "news">News</option>
+                                    <option value = "event">Events</option>
+                                </select>
+                                <label for="area">Choose an area:</label>
+                                    <select name="area" id="area">
+                                        <option value="">--Please choose an area--</option>
+                                        <option value="beirut">Beirut</option>
+                                        <option value="mount-lebanon">Mount-Lebanon</option>
+                                        <option value="north">North</option>
+                                        <option value="south">South</option>
+                                        <option value="bekaa">Bekaa</option>
+                                    </select>
+                                <label for="interest-select">Select your interest:</label>
+                                    <select name="interest" id="interest-select">
+                                        <option value="">--Please choose an option--</option>
+                                        <option value="volunteer">Volunteer</option>
+                                        <option value="donate">Donate</option>
+                                        <option value="join us">Join us</option>
+                                        <option value="reporting">reporting a case</option>
+                                    </select>
+                                <label for="submit">
+                                    <button type="submit" id="submit" name="submit">Submit</button>
+                                </label>
+                            </legend>
+                        </fieldset>
+                    </form>
+                </section>
+                <article class="ne-article">
+                    <section class="ne-section2">
+                        <div>
+                         <h4>Beiurt by Food</h4>
+                         <p><time datetime="2020-01-20">20 Jan</time> at sanaii garder</p>
+                         <p>Socialarity established a food trunk at the sanaii garden. Everyone enjoyed a free 3 meal that were sponsored by ActiveCo a lebanese tech leader company who support Socialirity since it is creation.</p>
+                        </div>
+                    </section>
+                    <section class="ne-section3">
+                        <div>
+                            <h4>Tripoli Foody day</h4>
+                            <p><time datetime="2020-01-27">27 Jan</time> at mina</p>
+                            <p>Socialarity established a samll kitchen at the mina wlakside. Everyone enjoyed a free lunch meach sponsored by Tripoli first a lebanese community organization that collaborates with Socialirity at the North area.</p>
+                        </div>
+                        
+                    </section>
+                </article>
+                
             </main>
             <footer>
 
