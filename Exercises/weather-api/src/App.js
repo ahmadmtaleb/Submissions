@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import Search from "./components/Search";
+
+import SayHi, { SayHello } from "./components/WeatherItem";
+import fakeWeatherData from "./fakeWeatherData.json";
+
 import "./App.css";
 import Find from ".//component /Find_component";
 import Hourly from "./component /Hourly_component";
@@ -17,6 +22,7 @@ const api_key = "434f1d4e9101484cccd8180678e9920f";
 // import unknown from "./img/weather-icons/unknown.svg";
 
 class App extends Component {
+<<<<<<< HEAD
   // constructor(props) {
   //   super(props);
   //   this.state = {};
@@ -81,6 +87,25 @@ class App extends Component {
             <Hourly />
           </div>
         </main>
+=======
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "Karim"
+    };
+  }
+
+  handleInputChange = value => {
+    this.setState({ name: value });
+  };
+
+  render() {
+    return (
+      <div className="app">
+        <SayHi />
+        <SayHello color="black" name={this.state.name} />
+        <Search handleInput={this.handleInputChange} />
+>>>>>>> dbfca94249132279d87cdc433793d8f550b80fc5
       </div>
     );
   }

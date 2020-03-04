@@ -45,6 +45,7 @@ main {
 
 /* Centered image */
 
+<<<<<<< HEAD
 .current_weather {
   display: flex;
   flex-flow: column wrap;
@@ -92,4 +93,10 @@ main {
 section img {
   width: 120%;
   height: 120%;
+=======
+/* Current weather */
+
+div {
+  border: 5px solid red;
+>>>>>>> dbfca94249132279d87cdc433793d8f550b80fc5
 }
