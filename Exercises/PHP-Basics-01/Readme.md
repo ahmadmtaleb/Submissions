@@ -42,7 +42,7 @@
 
 > Outputting text using PHP
 
-1. Copy & Past the content of the pervious step
+1. Copy & Paste the content of the pervious step
 2. Between the PHP Opening & Closing tags and on a new line output "I am getting errors but I can't see the errors".
 . Using a different method, output "Search on how to enable PHP Errors";
 
